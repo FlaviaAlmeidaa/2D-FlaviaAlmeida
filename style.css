@@ -1,7 +1,7 @@
-}
-
 body {
-   background-color: rgb(174, 181, 221);}
+   background-color: var(--cor-de-fundo);
+   color: var(--azul-principal);
+}
 
 * {
    margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 .principal {
-   background-image: url();
+   background-image: url("img/Background.png");
    background-repeat: no-repeat;
    background-size: contain;
 }
